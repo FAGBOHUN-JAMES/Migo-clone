@@ -1,0 +1,639 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+   
+}
+
+/* navigation bar */
+.navbar{
+    position: fixed;
+    top: 0.625rem;
+    background-color: #fff;
+    min-height: 4.375rem;
+    z-index: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;     
+}
+
+.nav ul li{
+    float: left; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0000FE;
+    font-size: 1.25rem;
+    padding-left: 1.5625rem;
+    font-weight: 700; 
+}
+.loan a {
+    border: 1.875rem;
+    background-color: #2da14e;
+    color: #efefef;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+}
+.loan {
+    padding-left: 0.9375rem;
+}
+.loan a:hover {
+    background-color:  #023a12;
+}
+
+.bar {
+    margin-left: 90%;
+    color: #0000FE;
+}
+
+/* Hero section */
+
+.hero {
+    background-image: url(https://assets.website-files.com/5fa49ffac886f9ed7a1bca57/6063dc865b57e2eb05438d0b_iStock-1174650290-1600px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 37vh;
+    width: 100%; 
+    margin-top: 5%;
+    
+}
+
+.hero h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 3rem;
+    padding-left: 6.25rem;
+    padding-top: 10%;
+    font-family: 'Helvetica Neue LT Heavy Condensed', sans-serif;
+    background-color: rgba(30, 30, 30, 0.6);
+    height: 28.5rem;
+    opacity: 1;
+    line-height: 1;
+    
+}
+
+/*section 1 */
+.api-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sec1b {
+    margin-left: 8%;
+}
+.sec1b h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.sec1b a {
+    color: black;
+    text-decoration: none;
+}
+.sec1b a:hover {
+    color: #0000FE;
+}
+/* api-section 1 */
+.api-section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.bank img {
+    margin-left: 37%;
+    width: 7rem;
+    border-radius: 50% ;
+    border: 4px solid #0000FE;
+    padding: 20px;
+    
+}
+.bank h1 {
+    text-align: center;
+    color: #0000FE;
+}
+.bank p {
+    text-align: left;
+    font-size: 1rem;
+}
+.bank a {
+    text-decoration: none;
+    color: black; 
+}
+.bank a:hover {
+    border: 0.625rem;
+    border-radius: 0.625rem;
+      
+}
+/* merchant */
+
+.merchant img {
+    margin-left: 35%;
+    width: 7rem;
+    border-radius: 50% ;
+    border: 4px solid #0000FE;
+    padding: 20px;
+}
+
+.merchant h1 {
+    text-align: center;
+    color: #0000FE;
+}
+.merchant a {
+    text-decoration: none;
+    color: black;   
+}
+.merchant p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* api-section 2 */
+.api-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.fintech img {
+    width: 7rem;
+    margin-left: 37%;
+    border-radius: 50% ;
+    border: 4px solid #0000FE;
+    padding: 18px;
+    padding-top: 20px;
+}
+.fintech h1 {
+    text-align: center;
+    color: #0000FE;
+}
+.fintech p {
+    text-align: left;
+    font-size: 1rem;
+}
+.fintech a {
+    text-decoration: none;
+    color: black;   
+}
+/* telcos */
+.telcos img {
+    margin-left: 38%;
+    width: 7rem;
+    border-radius: 50% ;
+    border: 4px solid #0000FE;
+    padding: 20px;
+}
+.telcos p {
+    text-align: left;
+    font-size: 1rem;
+    
+}
+.telcos h1 {
+    text-align: center;
+    color: #0000FE;
+}
+
+.telcos a {
+    text-decoration: none;
+    color: black;   
+}
+
+.telcos h1 {
+    color: #0000FE;
+}
+
+.migo-btn {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.migo-btn a {
+    text-decoration: none;
+    border-radius: 0.625rem;
+    background-color: #0000FE;
+    padding: 1rem;
+    color: #fff;
+   
+}
+
+/* section 2 */
+.section2 {
+    background-color: #010065;
+    min-height: 500px;
+    display: flex; 
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 5%;
+}
+.sec2a {
+    height: 90%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec2a h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Helvetica Neue LT Heavy Condensed', sans-serif;
+}
+.number {
+    display: flex;
+    margin-top: 1%;
+}
+.p-number {
+    background-color: #efefef;
+   height: 4.5vh;
+   margin-top: 4.5%;
+}
+
+#phone-number {
+    width: 20rem;
+    height: 2rem;
+    margin-top: 0.94rem;
+}
+
+.phone-submit-btn{
+    border: 1.88rem;
+    background-color: #2da14e;
+    color: #efefef;
+    padding: 1px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 1.9%;
+}
+
+
+.sec2c p{
+    color: #fff;
+    font-size: 0.99rem;
+    margin-top: 2%;
+}
+.sec2c a {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: 'Helvetica Neue LT Roman', sans-serif;
+
+}
+.sec2c a:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color:  #023a12
+}
+.sec2d {
+    margin-left: 0%;
+}
+
+/* section 3 */
+.section3 {
+   margin-top: 100px;  
+}
+.section3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
+.section3 :nth-child(2) {
+    margin-left: 25%;
+}
+iframe {
+    width: 50vw; 
+    height: 70vh; 
+    margin-left: 50%;
+}
+
+/* section 4 */
+.section4 {
+    margin-top: 50px;
+}
+.sec4a {
+    font-family: 'Helvetica Neue LT Roman', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    flex-wrap: wrap;
+      
+}
+
+.sec4b{
+    max-width: 17.25rem;
+}
+
+.sec4c {
+    
+}
+.sec4d {
+    margin-top: 52px;
+    
+}
+
+.sec4a a {
+    text-decoration: none;
+    color: #0000FE;
+}
+.sec4a a:hover {
+    color: #010065;
+}
+/* section 5 */
+.section5 {
+    background-color: #efefef;
+    margin-top: 40px;
+}
+.patner-container { 
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px 0%;
+    position: relative; 
+}
+.sec5a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section5 h1 {
+    width: 100%;
+    text-transform: none;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: Helvetica Neue LT Heavy Condensed, sans-serif;
+    font-size: 2.5rem;
+    line-height: 52px;
+    display: block;
+}
+.patner-logo {
+    width: 24%;
+    color: #515151;
+}
+
+
+/* footer section */
+.section6 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-around;
+    max-width: 940px;
+}
+.section6 ul {
+    list-style-type: none;
+}
+.section6 h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 20px;
+    
+}
+.sec6a img {
+    height: 1.89rem;
+}
+
+.sec6b a {
+    color: #302f2f;
+    font-size: 0.94rem;
+    font-weight: 700;
+    text-decoration: none;
+   
+}
+.sec6b a:hover {
+    color: #0000FE;
+    text-decoration: underline;
+}
+
+.sec6c a {
+    color: #302f2f;
+    font-size: 0.94rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.sec6c a:hover {
+    color: #0000FE;
+    text-decoration: underline;
+}
+
+.sec6d a {
+    color: #302f2f;
+    font-size: 0.94rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.sec6d a:hover {
+    color: #0000FE;
+    text-decoration: underline;
+}
+.sec6e a {
+    color: #302f2f;
+    font-size: 0.94rem;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.sec6e a:hover {
+    color: #0000FE;
+    text-decoration: underline;
+}
+
+.section6 p {
+    padding-top: 22%;
+    font-size: 0.94rem;
+    padding-left: 10%;
+}
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+}
+.section7  {
+    background-color: #010065;
+    width: 100%;
+    color: #fff;
+    min-height: 28vh;
+    padding-left: 30%;
+    padding-top: 2.125rem;
+    margin-top: 40px;
+
+}
+
+.sec7a a {
+    text-decoration: none;
+    border-radius: 0.625rem;
+    background-color: #0000FE; 
+    padding: 1rem;
+    color: #fff;
+    width: 100%;
+    height: 12.5rem;
+}
+
+@media screen and (max-width: 900px)  { 
+    .navbar {
+        display: none;
+    }
+    .bar{
+        width: 50px;
+    }
+
+    /* hero section*/
+    .hero {
+       
+    }
+    .hero h1 {
+       font-size: 2.3rem; 
+       padding-left: 3%;
+       line-height: 1.5;
+       padding-top: 10%;
+       height: 50vh;
+    }
+
+    /* section 1 */
+    .sec1b {
+        margin-left: 1px;
+    }
+    .sec1b h1 {
+        font-size: 2rem;
+    }
+    .api-section img {
+        width: 5rem;
+    }
+    .bank {
+        margin-bottom: 20px;
+    }
+    .fintech{
+        margin-bottom: 20px;
+    }
+    
+
+    /* section 2 */
+    .section2 {
+        height: 10vh;
+    
+    }
+    .sec2b h1 {
+        font-size: 2.5rem;
+    }
+    .sec2d img {
+        width: 200px;
+        padding-top: 250px;
+    }
+    .number {
+        margin-top: 5%;
+        flex: 1;
+    }
+    .number p {
+        margin-top: 2.6%;
+    }
+    .number a {
+        margin-top: 2.4%;
+    }
+    /* section 3 */
+    .section3 h1 {
+        font-size: 2rem;
+    }
+    .sec4c {
+       margin-top: 30px;
+    }
+    .sec4d {
+        margin-left: 18%;
+    }
+}
+
+
+@media screen and ( max-width: 500px) {
+    .hero h1 {
+        font-size: 1.5rem;
+        padding-top: 25%;
+        
+    }
+
+    /* section 1*/
+    .api-section {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .sec1b h1 {
+        font-size: 1.2rem;
+    }
+
+    /* section 1*/
+
+    .sec2b h1 {
+        font-size: 1.5rem;
+    }
+    .api-section1 {
+        width: 50vh;
+    }
+    .api-section2 {
+        width: 50vh;
+    }
+    .migo-btn {
+        margin-left: 20%;
+    }
+
+    /* section 2*/
+
+     .sec2d {
+        display: none;
+    }
+    /* section 3*/
+
+    .section3 :nth-child(2) {
+        width: 90vw;
+        margin-left: 5%;
+        height: 30vh;
+    }
+    /* section 4*/
+    .sec4d {
+        margin-left: 8% ;
+    }
+
+    /* section 6*/
+    .section6 {
+        flex-direction: column;
+    }
+    .sec6b {
+        margin-bottom: 5%;
+    }
+
+    .sec6c {
+        margin-bottom: 5%;
+    }
+
+    .sec6d {
+        margin-bottom: 5%;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+    }
+
+    .section7 {
+        padding-left: 2%;
+        font-size: 0.9rem;
+    }
+}  
+
+
